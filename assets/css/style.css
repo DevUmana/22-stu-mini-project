@@ -68,7 +68,7 @@ main {
   margin-top: 40px;
 }
 
-#section-2 {
+.section-2 {
   height: 110px;
   background-color: #e4cfc1;
   padding-bottom: 25px;
@@ -85,10 +85,6 @@ form {
   border: 3px solid #d6b198;
   border-radius: 15px;
   margin: auto;
-}
-
-label {
-  /* need to update this */
 }
 
 input {
