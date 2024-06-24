@@ -40,9 +40,9 @@ img {
 }
 
 #text-1 {
-  margin: 0;
   padding-top: 10px;
   padding-bottom: 15px;
+  margin: 0;
 }
 
 #text-2 {
@@ -94,10 +94,10 @@ form {
 }
 
 .form {
-  margin: 0;
+  line-height: 10px;
   text-align: right;
   padding-right: 40px;
-  line-height: 10px;
+  margin: 0;
 }
 
 label {
