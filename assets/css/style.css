@@ -40,9 +40,7 @@ img {
 }
 
 #text-1 {
-  margin: 0;
-  padding-top: 10px;
-  padding-bottom: 15px;
+  padding-bottom: 10px;
 }
 
 #text-2 {
@@ -93,23 +91,15 @@ form {
   margin: auto;
 }
 
-.form {
-  margin: 0;
-  text-align: right;
-  padding-right: 40px;
-  line-height: 10px;
-}
-
-label {
-  font-size: 10px;
-}
-
 input {
   height: 5px;
   width: 180px;
   font-size: 9px;
-  border-radius: 0;
-  border-width: 1px;
+}
+
+input[type="text"] {
+  margin-right: 1px;
+  margin-bottom: 2px;
 }
 
 input[type="submit"] {
@@ -118,6 +108,7 @@ input[type="submit"] {
   font-size: 10px;
   color: white;
   background-color: #453f3e;
+  margin-top: 0.4px;
 }
 
 footer {
