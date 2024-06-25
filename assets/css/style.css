@@ -56,10 +56,11 @@ body {
 }
 
 header {
+  position: fixed;
+  top: 0;
+  z-index: 2;
   height: 30px;
   width: 100%;
-  position: fixed; /* Set the navbar to fixed position */
-  top: 0; /* Position the navbar at the top of the page */
   color: white;
   background-color: #366051;
   border-bottom: 5px solid #d6b198;
